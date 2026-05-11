@@ -468,7 +468,7 @@ __metadata:
     lit: "npm:^3.2.1"
     lodash-es: "npm:^4.17.21"
     lottie-react: "npm:^2.4.0"
-    mermaid: "npm:^10.9.1"
+    mermaid: "npm:^10.9.6"
     mp4-muxer: "npm:^5.2.1"
     nanoid: "npm:^5.0.9"
     next-themes: "npm:^0.4.4"
@@ -19961,7 +19961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3@npm:^7.4.0, d3@npm:^7.8.2":
+"d3@npm:^7.4.0, d3@npm:^7.9.0":
   version: 7.9.0
   resolution: "d3@npm:7.9.0"
   dependencies:
@@ -19999,13 +19999,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dagre-d3-es@npm:7.0.10":
-  version: 7.0.10
-  resolution: "dagre-d3-es@npm:7.0.10"
+"dagre-d3-es@npm:7.0.13":
+  version: 7.0.13
+  resolution: "dagre-d3-es@npm:7.0.13"
   dependencies:
-    d3: "npm:^7.8.2"
+    d3: "npm:^7.9.0"
     lodash-es: "npm:^4.17.21"
-  checksum: 10/09f56dd337cc7d0620d50f20913308d5e8aaffafb0b188a69b0d8ff87915599586224694be3f8d93bd8c383858d358c0140493a11a0df2508de959a4658952c2
+  checksum: 10/f6dbd373b85cc9fbcb23fba996656a0336ba48bc46f1e6d31c582418a5086caf230a4e8178b90acd7b1d14b090cbba2db50dc64484d67cf9c8856a4a2fe30cf0
   languageName: node
   linkType: hard
 
@@ -20533,13 +20533,6 @@ __metadata:
   dependencies:
     domelementtype: "npm:^2.3.0"
   checksum: 10/809b805a50a9c6884a29f38aec0a4e1b4537f40e1c861950ed47d10b049febe6b79ab72adaeeebb3cc8fc1cd33f34e97048a72a9265103426d93efafa78d3e96
-  languageName: node
-  linkType: hard
-
-"dompurify@npm:^3.0.5 <3.1.7":
-  version: 3.1.6
-  resolution: "dompurify@npm:3.1.6"
-  checksum: 10/036844bc9b717b172ba27f5863b56f950289a05d8eebfb702d6953bbf80bd021e480ce4217bd084567186f2d0ada13358ce5556963492cfe402d774e8667f120
   languageName: node
   linkType: hard
 
@@ -26699,9 +26692,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mermaid@npm:^10.9.1":
-  version: 10.9.3
-  resolution: "mermaid@npm:10.9.3"
+"mermaid@npm:^10.9.6":
+  version: 10.9.6
+  resolution: "mermaid@npm:10.9.6"
   dependencies:
     "@braintree/sanitize-url": "npm:^6.0.1"
     "@types/d3-scale": "npm:^4.0.3"
@@ -26710,9 +26703,9 @@ __metadata:
     cytoscape-cose-bilkent: "npm:^4.1.0"
     d3: "npm:^7.4.0"
     d3-sankey: "npm:^0.12.3"
-    dagre-d3-es: "npm:7.0.10"
+    dagre-d3-es: "npm:7.0.13"
     dayjs: "npm:^1.11.7"
-    dompurify: "npm:^3.0.5 <3.1.7"
+    dompurify: "npm:^3.2.4"
     elkjs: "npm:^0.9.0"
     katex: "npm:^0.16.9"
     khroma: "npm:^2.0.0"
@@ -26721,9 +26714,9 @@ __metadata:
     non-layered-tidy-tree-layout: "npm:^2.0.2"
     stylis: "npm:^4.1.3"
     ts-dedent: "npm:^2.2.0"
-    uuid: "npm:^9.0.0"
+    uuid: "npm:^9.0.0 || ^10 || ^11.1.0 || ^12 || ^13 || ^14.0.0"
     web-worker: "npm:^1.2.0"
-  checksum: 10/ca6ed9e6a24a7d8777ea9f145d7dc5b66e2070cfb7afa39b77532ebe6ebf6e7a1e9ae617ccc9b47ca493d862a27487ea13f841ccd1184107e4ac689d4b3d4c38
+  checksum: 10/a5c60043a4112decefc7d2b39250af84660603e4a1be78fff08f6c65612dea7f3a83919e50da3aa91549ab1670b5cdf803a2644f1d96ed3682b249cba5dc9fb5
   languageName: node
   linkType: hard
 
@@ -34609,6 +34602,15 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 10/9a5f7aa1d6f56dd1e8d5f2478f855f25c645e64e26e347a98e98d95781d5ed20062d6cca2eecb58ba7c84bc3910be95c0451ef4161906abaab44f9cb68ffbdd1
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^9.0.0 || ^10 || ^11.1.0 || ^12 || ^13 || ^14.0.0":
+  version: 14.0.0
+  resolution: "uuid@npm:14.0.0"
+  bin:
+    uuid: dist-node/bin/uuid
+  checksum: 10/8ee9b98f9650e25555515f7a28d3c3ae9364e72f7bb19b9e08b681bc135338beba5509b2830f6ae1cfaba4d45401da0d16d4d109b977097bc3d6ba0c5583341b
   languageName: node
   linkType: hard
 
