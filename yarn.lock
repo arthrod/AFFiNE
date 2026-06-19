@@ -1018,7 +1018,7 @@ __metadata:
     nest-commander: "npm:^3.15.0"
     nest-winston: "npm:^1.9.7"
     nestjs-cls: "npm:^6.0.0"
-    nodemailer: "npm:^7.0.0"
+    nodemailer: "npm:^9.0.1"
     nodemon: "npm:^3.1.7"
     on-headers: "npm:^1.1.0"
     piscina: "npm:^5.0.0-alpha.0"
@@ -28247,10 +28247,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:^7.0.0":
-  version: 7.0.3
-  resolution: "nodemailer@npm:7.0.3"
-  checksum: 10/d51e9b30753c982c35cf77839f3b7c1f138eb3fb5607c34f724ddc32360e56c3d631ff5b4eba5491f1f8805b428b945850441b4bd893bd2283c55be615f020c5
+"nodemailer@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "nodemailer@npm:9.0.1"
+  checksum: 10/cc7782962def1575102039270ff3356535c614e6db420dda85dffe672e77e66b410198c284a508b3bc8193b9c34c8e7b4cf8c697e0de2cc978c5e02f9c708fed
   languageName: node
   linkType: hard
 
